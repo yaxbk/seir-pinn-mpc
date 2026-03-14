@@ -44,7 +44,7 @@ The pipeline is validated on a synthetic scenario calibrated to **COVID-19 demog
 ├── seir-pinn-mpc.ipynb  # Main notebook — full LS-PINN + NMPC pipeline
 ├── README.md            # This file
 ├── requirements.txt     # Python dependencies
-├── LICENSE              # MIT License
+├── LICENSE              # To be added upon publication
 └── .gitignore           # Ignores outputs/ and checkpoints
 ```
 
@@ -150,8 +150,8 @@ Output figures are saved in `outputs/` folder. Download them via the Colab file 
 ### Local Installation
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/YassineBarakate/seir-pinn-mpc.git
+cd seir-pinn-mpc
 pip install -r requirements.txt
 jupyter notebook seir-pinn-mpc.ipynb
 ```
@@ -203,5 +203,6 @@ If you use this code, please cite:
 
 ## License
 
-This project is released for academic and research purposes.  
-© 2026 Omar Khazri, Yassine Barakate — Hassan II University of Casablanca, Morocco.
+License will be added upon publication of the accompanying paper.  
+© 2026 Omar Khazri, Yassine Barakate — Hassan II University of Casablanca, Morocco.  
+Please contact the authors before reusing this code.
